@@ -1,7 +1,7 @@
 # Typescript Angular 2 + Node.js Starter Project with Linting, Minification, and Bundling
 
 ## About
-* Demo hosted on [Heroku](https://tour-of-heroes-typescript.herokuapp.com/)
+* Demo hosted on [Heroku](https://tourofheroesangular.herokuapp.com/)
     (Using free dynos which sleep during inactivity, so initial load may be slow)
 * Angular 2 Code in Typescript 1.8 with SystemJS for module loading
     * Decouples components, models, services, and templates
@@ -49,6 +49,7 @@ If no code has changed since your last build, you can just run:
 ## Additional Commands
 * `gulp tsconfig-glob`: populates 'files' in tsconfig.json from 'filesGlob'
 * `gulp styles`: lints, compiles, compresses Sass to CSS only
+* `npm install --save del`: install del
 * `gulp scripts`: lints, compiles, compresses Typescript to JS only
 * `gulp lint`: lints Typescript and SCSS files
 * `gulp clean`: clears all built files
